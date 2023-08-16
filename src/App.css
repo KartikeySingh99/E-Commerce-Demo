@@ -1,0 +1,138 @@
+#root {
+  /* max-width: 1280px; */
+  margin: 0 auto;
+  /* padding: 2rem; */
+  /* text-align: center; */
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+.react-multi-carousel-item {
+  /* max-width: 260px !important; */
+  display: flex;
+  align-items: center !important;
+  justify-content: center !important;
+}
+
+.react-multi-carousel-track{
+  margin-bottom: 20px;
+}
+
+.banner-carousel .react-multi-carousel-track{
+  margin-bottom: 0;
+}
+
+.react-multiple-carousel__arrow {
+  background-color: white !important;
+  z-index: 5 !important;
+  border: 2px solid rgba(128, 128, 128, 0.504) !important;
+  box-shadow: 0 0 8px rgba(128, 128, 128, 0.563);
+}
+
+.react-multiple-carousel__arrow:hover {
+  background-color: whitesmoke !important;
+}
+
+.react-multiple-carousel__arrow::before {
+  color: black !important;
+}
+
+.react-multiple-carousel__arrow--right {
+  right: -10px !important;
+}
+
+.react-multiple-carousel__arrow--left {
+  left: -10px !important;
+}
+
+.react-multi-carousel-list {
+  position: static !important;
+}
+
+.react-multi-carousel-track {
+  display: flex!important;
+  align-items: center !important;
+  justify-content: center !important;
+}
+
+.banner-carousel {
+  display: flex;
+  /* margin: 1vmax auto; */
+  align-items: center;
+  /* width: 90vw; */
+  /* flex-wrap: wrap; */
+  max-width: 100%;
+}
+.custom-shape-divider-bottom-1691852962 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+  z-index: 20;
+}
+
+.custom-shape-divider-bottom-1691852962 svg {
+  position: relative;
+  display: block;
+  width: calc(136% + 1.3px);
+  height: 112px;
+}
+
+.custom-shape-divider-bottom-1691852962 .shape-fill {
+  fill: #FFFFFF;
+}
+
+.gradient-background {
+  background: linear-gradient(141deg,#7242f8,#8938c3,#3a0c49);
+  background-size: 180% 180%;
+  animation: gradient-animation 6s ease infinite;
+}
+
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
